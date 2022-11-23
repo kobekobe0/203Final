@@ -1,0 +1,48 @@
+//		JFrame loginPage = new JFrame();
+//		JLabel loginBg = new JLabel();
+//		ImageIcon loginBgImg = new ImageIcon("loginBg.jpg");
+//		JLabel loginTitle = new JLabel("Login");
+//		JTextField usernameField = new JTextField();
+//		JTextField passwordField = new JTextField();
+//		JPanel loginInputPanel = new JPanel();
+//		JButton loginBtn = new JButton();
+//		JLabel registerText = new JLabel();
+//		
+//		loginTitle.setBounds(100, 100, 200, 100);
+//		loginTitle.setFont(new Font("Sans", Font.PLAIN, 30));
+//		loginTitle.setForeground(Color.WHITE);
+//		
+//		usernameField.setSize(250, 30);
+//		usernameField.setBounds(100, 200, 200, 30);
+//		passwordField.setSize(250, 30);
+//		passwordField.setBounds(100, 250, 200, 30);
+//		
+//		loginBtn.setBounds(220, 300, 80, 30);
+//		loginBtn.setText("Login");
+//		
+//		registerText.setText("Create an account.");
+//		registerText.setBounds(210, 340, 200, 10);
+//		registerText.setFont(new Font("Sans", Font.PLAIN, 10));
+//		registerText.setForeground(Color.blue);
+//		
+//		loginInputPanel.setBackground(Color.gray);
+//		
+//		
+//		
+//		loginBg.setText("hohohohoh");
+//		loginBg.setIcon(loginBgImg);
+//		
+//		loginPage.setSize(1000,600);
+//		loginPage.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//		loginPage.setVisible(true);
+//		loginPage.setLayout(new BorderLayout());
+//		loginPage.add(loginInputPanel, BorderLayout.EAST);
+//		
+//		loginInputPanel.setPreferredSize(new Dimension(400,600));
+//		loginInputPanel.setSize(800, 600);
+//		loginInputPanel.setLayout(null);
+//		loginInputPanel.add(loginTitle);
+//		loginInputPanel.add(usernameField);
+//		loginInputPanel.add(passwordField);
+//		loginInputPanel.add(loginBtn);
+//		loginInputPanel.add(registerText);
